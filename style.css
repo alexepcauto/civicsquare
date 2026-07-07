@@ -1,0 +1,65 @@
+/*
+Theme Name: CivicSquare
+Theme URI: 
+Author: Alex
+Description: A modern civic WordPress theme.
+Version: 1.0
+License: GNU General Public License v2 or later
+Text Domain: civicsquare
+*/
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: #f5f6f7;
+}
+
+
+.container {
+    width: min(1100px, 90%);
+    margin: 0 auto;
+}
+
+
+.site-header {
+    background: #1d3557;
+    padding: 20px 0;
+}
+
+
+.site-branding a {
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+.site-navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.site-navigation a {
+    color: white;
+}
+
+
+.site-content {
+    background: white;
+    padding: 40px 0;
+    min-height: 500px;
+}
+
+
+.site-footer {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+}
