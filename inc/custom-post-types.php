@@ -37,3 +37,40 @@ add_action(
     'init',
     'civicsquare_register_deputy_post_type'
 );
+
+function civicsquare_register_document_post_type() {
+
+    register_post_type('document', array(
+
+        'labels' => array(
+            'name'          => 'Документы',
+            'singular_name' => 'Документ',
+            'add_new_item'  => 'Добавить документ',
+            'edit_item'     => 'Редактировать документ',
+        ),
+
+        'public' => true,
+
+        'has_archive' => true,
+
+        'rewrite' => array(
+            'slug' => 'documents'
+        ),
+
+        'menu_icon' => 'dashicons-media-document',
+
+        'supports' => array(
+            'title',
+            'editor'
+        ),
+
+        'show_in_rest' => true
+
+    ));
+
+}
+
+add_action(
+    'init',
+    'civicsquare_register_document_post_type'
+);

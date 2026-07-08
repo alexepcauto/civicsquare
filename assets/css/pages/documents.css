@@ -1,1 +1,29 @@
+.document-card {
+
+    background:white;
+
+    padding:30px;
+
+    margin-bottom:25px;
+
+    border-radius:var(--radius);
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.08);
+
+}
+
+
+.document-card h2 {
+
+    margin-top:0;
+
+}
+
+
+.document-card a {
+
+    text-decoration:none;
+
+}
 
