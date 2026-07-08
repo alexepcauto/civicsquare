@@ -1,0 +1,210 @@
+body.accessibility-mode {
+
+    font-size:120%;
+
+}
+
+
+body.accessibility-mode * {
+
+    animation:none !important;
+
+    transition:none !important;
+
+}
+
+
+body.accessibility-mode a {
+
+    text-decoration:underline;
+
+}
+
+
+body.accessibility-mode {
+
+    background:#ffffff;
+
+    color:#000000;
+
+}
+
+
+body.accessibility-mode .main-navigation {
+
+    background:#000000;
+
+}
+
+
+body.accessibility-mode .hero {
+
+    background:#000000;
+
+}
+
+.accessibility-panel {
+
+    display:none;
+
+    background:#f1f1f1;
+
+    padding:20px 0;
+
+    border-bottom:1px solid #ddd;
+
+}
+
+
+.accessibility-panel.active {
+
+    display:block;
+
+}
+
+
+.accessibility-controls {
+
+    display:flex;
+
+    gap:10px;
+
+    flex-wrap:wrap;
+
+}
+
+
+.accessibility-controls button {
+
+    padding:10px 20px;
+
+    cursor:pointer;
+
+    border:1px solid #333;
+
+    background:white;
+
+}
+
+body.font-large {
+
+    font-size:120%;
+
+}
+
+
+body.font-extra {
+
+    font-size:140%;
+
+}
+
+body.high-contrast {
+
+    background:#000;
+
+    color:#fff;
+
+}
+
+
+body.high-contrast .site-header,
+body.high-contrast .page-content,
+body.high-contrast .card,
+body.high-contrast .service-card {
+
+    background:#000;
+
+    color:#fff;
+
+}
+
+
+body.high-contrast {
+
+    background:#000;
+
+    color:#fff;
+
+}
+
+
+body.high-contrast * {
+
+    border-color:#fff !important;
+
+}
+
+
+body.high-contrast .site-header,
+body.high-contrast .page-content,
+body.high-contrast .single-post,
+body.high-contrast .card,
+body.high-contrast .service-card,
+body.high-contrast .accessibility-panel {
+
+    background:#000;
+
+    color:#fff;
+
+}
+
+
+body.high-contrast a {
+
+    color:#fff;
+
+    text-decoration:underline;
+
+}
+
+
+body.high-contrast .main-navigation {
+
+    background:#000;
+
+}
+
+
+body.high-contrast .hero {
+
+    background:#000;
+
+    color:#fff;
+
+}
+
+
+body.high-contrast img {
+
+    filter:
+        grayscale(100%);
+
+}
+
+
+body.high-contrast .main-navigation {
+
+    background:#000;
+
+}
+
+
+body.high-contrast .hero {
+
+    background:#000;
+
+    color:#fff;
+
+}
+
+
+body.high-contrast button {
+
+    background:#000;
+
+    color:#fff;
+
+    border:2px solid #fff;
+
+}
