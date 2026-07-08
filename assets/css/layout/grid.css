@@ -9,3 +9,32 @@
 
 }
 
+.page-content {
+
+    padding: 80px 0;
+
+}
+.site-content {
+
+    width: 100%;
+
+}
+
+
+.page-content {
+
+    padding: 80px 0;
+
+}
+
+
+.page-content .container {
+
+    width: min(
+        var(--container-width),
+        90%
+    );
+
+    margin: 0 auto;
+
+}

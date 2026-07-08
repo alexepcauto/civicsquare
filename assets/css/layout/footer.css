@@ -1,1 +1,82 @@
+.site-footer {
+
+    background:var(--color-primary);
+
+    color:white;
+
+    padding:60px 0 0;
+
+}
+
+
+
+.footer-grid {
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:40px;
+
+}
+
+
+
+.footer-brand h3,
+.footer-navigation h4,
+.footer-contact h4 {
+
+    margin-top:0;
+
+}
+
+
+
+.footer-navigation ul {
+
+    list-style:none;
+
+    padding:0;
+
+    margin:0;
+
+}
+
+
+
+.footer-navigation li {
+
+    margin-bottom:10px;
+
+}
+
+
+
+.footer-navigation a {
+
+    color:white;
+
+    text-decoration:none;
+
+}
+
+
+
+.footer-navigation a:hover {
+
+    text-decoration:underline;
+
+}
+
+
+
+.footer-bottom {
+
+    margin-top:40px;
+
+    padding:20px 0;
+
+    border-top:1px solid rgba(255,255,255,.2);
+
+}
 

@@ -1,0 +1,196 @@
+/* =====================================
+   Deputies archive
+===================================== */
+
+
+.deputy-card {
+
+    display: flex;
+
+    gap: 40px;
+
+    margin-bottom: 50px;
+
+    padding-bottom: 40px;
+
+    border-bottom: 1px solid #ddd;
+
+}
+
+
+.deputy-photo {
+
+    width: 220px;
+
+    flex-shrink: 0;
+
+}
+
+
+.deputy-thumbnail {
+
+    width: 220px;
+
+    height: 260px;
+
+    object-fit: cover;
+
+    border-radius: 14px;
+
+    display: block;
+
+}
+
+
+.deputy-content {
+
+    flex: 1;
+
+}
+
+
+.deputy-content h2 {
+
+    margin-top: 0;
+
+    font-size: 32px;
+
+}
+
+
+.deputy-content h2 a {
+
+    color: var(--color-dark);
+
+    text-decoration: none;
+
+}
+
+
+.deputy-content h2 a:hover {
+
+    color: var(--color-primary);
+
+}
+
+
+
+/* =====================================
+   Single deputy
+===================================== */
+
+
+.single-deputy {
+
+    width: 100%;
+
+}
+
+
+.single-deputy-profile {
+
+    display: flex;
+
+    gap: 50px;
+
+    align-items: flex-start;
+
+}
+
+
+.deputy-profile-photo {
+
+    width: 320px;
+
+    flex-shrink: 0;
+
+}
+
+
+.deputy-single-thumbnail {
+
+    width: 100%;
+
+    height: auto;
+
+    border-radius: 16px;
+
+    display: block;
+
+}
+
+
+.deputy-profile-content {
+
+    flex: 1;
+
+}
+
+
+.deputy-profile-content h1 {
+
+    margin-top: 0;
+
+    font-size: 42px;
+
+}
+
+
+.deputy-description {
+
+    font-size: 18px;
+
+    line-height: 1.7;
+
+    margin-bottom: 35px;
+
+}
+
+
+
+/* =====================================
+   Mobile
+===================================== */
+
+
+@media (max-width: 900px) {
+
+
+    .deputy-card {
+
+        flex-direction: column;
+
+    }
+
+
+    .deputy-photo {
+
+        width: 100%;
+
+    }
+
+
+    .deputy-thumbnail {
+
+        width: 100%;
+
+        height: auto;
+
+    }
+
+
+    .single-deputy-profile {
+
+        flex-direction: column;
+
+    }
+
+
+    .deputy-profile-photo {
+
+        width: 100%;
+
+    }
+
+
+}

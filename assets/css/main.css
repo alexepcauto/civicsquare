@@ -23,3 +23,5 @@
 
 /* accessibility */
 @import url("components/accessibility.css");
+
+@import url("pages/deputies.css");
