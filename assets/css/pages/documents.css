@@ -1,29 +1,95 @@
-.document-card {
+.document-files {
 
-    background:white;
+    margin-top: 40px;
 
-    padding:30px;
+    padding-top: 25px;
 
-    margin-bottom:25px;
-
-    border-radius:var(--radius);
-
-    box-shadow:
-    0 10px 30px rgba(0,0,0,.08);
+    border-top: 1px solid #ddd;
 
 }
 
 
-.document-card h2 {
+.document-files h2 {
 
-    margin-top:0;
+    margin-bottom: 20px;
+
+}
+
+
+.document-files ul {
+
+    list-style: none;
+
+    padding: 0;
+
+    margin: 0;
 
 }
 
 
-.document-card a {
+.document-files li {
 
-    text-decoration:none;
+    display: block;
+
+    padding: 15px 20px;
+
+    margin-bottom: 12px;
+
+    background: #fff;
+
+    border: 1px solid #e5e5e5;
+
+    border-radius: 8px;
 
 }
 
+
+.document-file-info {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.document-file-icon {
+
+    font-size: 22px;
+
+}
+
+
+.document-file-name {
+
+    font-size: 16px;
+
+    word-break: break-word;
+
+}
+
+
+
+.document-file-actions {
+
+    display: flex;
+
+    gap: 10px;
+
+    flex-wrap: wrap;
+
+}
+
+
+
+.document-files .button {
+
+    font-size: 14px;
+
+    padding: 8px 14px;
+
+}

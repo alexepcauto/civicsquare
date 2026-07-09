@@ -1,0 +1,99 @@
+.appeal-form {
+
+    max-width: 700px;
+
+}
+
+
+.appeal-form label {
+
+    display: block;
+
+    margin-top: 20px;
+
+    margin-bottom: 8px;
+
+    font-weight: 600;
+
+}
+
+
+.appeal-form input[type="text"],
+.appeal-form input[type="email"],
+.appeal-form textarea,
+.appeal-form select {
+
+    width: 100%;
+
+    padding: 12px;
+
+    font-size: 16px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 6px;
+
+    box-sizing: border-box;
+
+}
+
+
+.appeal-form textarea {
+
+    resize: vertical;
+
+}
+
+
+.appeal-form input[type="checkbox"] {
+
+    width: auto;
+
+    margin-right: 8px;
+
+}
+
+
+.appeal-form button {
+
+    margin-top: 25px;
+
+}
+
+.appeal-success {
+
+    margin: 20px 0;
+
+    padding: 15px 20px;
+
+    background: #f1f8f1;
+
+    border: 1px solid #b7d8b7;
+
+    border-radius: 6px;
+
+}
+
+.appeal-file-help {
+
+    font-size: 14px;
+
+    color: #666;
+
+    margin-top: 8px;
+
+}
+
+.appeal-error {
+
+    margin: 20px 0;
+
+    padding: 15px 20px;
+
+    background: #fff3f3;
+
+    border: 1px solid #e5bcbc;
+
+    border-radius: 6px;
+
+}
