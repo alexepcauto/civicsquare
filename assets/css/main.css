@@ -16,10 +16,12 @@
 /* Components */
 @import url("components/buttons.css");
 @import url("components/cards.css");
+@import url("components/sidebar.css");
 
 
 /* Pages */
 @import url("pages/front-page.css");
+
 
 /* accessibility */
 @import url("components/accessibility.css");

@@ -3,6 +3,7 @@
 
 function civicsquare_enqueue_styles() {
 
+
     wp_enqueue_style(
         'civicsquare-main',
         get_template_directory_uri() . '/assets/css/main.css',
@@ -11,6 +12,7 @@ function civicsquare_enqueue_styles() {
     );
 
 }
+
 
 add_action(
     'wp_enqueue_scripts',
@@ -21,6 +23,7 @@ add_action(
 
 function civicsquare_scripts(){
 
+
     wp_enqueue_script(
         'civicsquare-accessibility',
         get_template_directory_uri()
@@ -30,7 +33,9 @@ function civicsquare_scripts(){
         true
     );
 
+
 }
+
 
 add_action(
     'wp_enqueue_scripts',

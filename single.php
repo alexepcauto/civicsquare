@@ -10,6 +10,12 @@ get_header();
 <div class="container">
 
 
+<div class="single-layout">
+
+
+<main class="single-content">
+
+
 <?php
 
 while(have_posts()):
@@ -34,17 +40,11 @@ the_post();
 </div>
 
 
-<?php
+<div class="single-image">
 
-if(has_post_thumbnail()):
+<?php civicsquare_post_image(); ?>
 
-the_post_thumbnail(
-    'large'
-);
-
-endif;
-
-?>
+</div>
 
 
 <div class="post-content">
@@ -66,6 +66,29 @@ the_content();
 endwhile;
 
 ?>
+
+
+</main>
+
+
+<?php
+
+get_template_part(
+    'template-parts/sidebar/news'
+);
+
+?>
+
+
+</div>
+
+
+
+
+
+
+
+</div>
 
 
 </div>

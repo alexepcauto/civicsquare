@@ -1,7 +1,8 @@
 <?php
+
 function civicsquare_post_image() {
 
-    if(has_post_thumbnail()){
+    if(has_post_thumbnail()) {
 
         the_post_thumbnail(
             'large',
@@ -15,8 +16,8 @@ function civicsquare_post_image() {
         echo '<img 
         class="news-thumbnail"
         src="' 
-        . get_template_directory_uri()
-        . '/assets/images/default-news.jpg"
+        . civicsquare_get_placeholder_image()
+        . '"
         alt="Муниципальная информация">';
 
     }

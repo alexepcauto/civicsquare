@@ -17,3 +17,7 @@ require_once get_template_directory() . '/inc/appeals.php';
 require_once get_template_directory() . '/inc/appeal-metabox.php';
 
 require_once get_template_directory() . '/inc/appeal-info-metabox.php';
+
+require_once get_template_directory() . '/inc/news-admin.php';
+
+require_once get_template_directory() . '/inc/placeholder-images.php';
